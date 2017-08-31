@@ -124,7 +124,7 @@
 ### 6.0.0 (2016-11-08)
 
 * Add `#Watir#relaxed_locate` to enable automatic waiting for elements to be ready for a specified action
-* Remove `when_present` method
+* Deprecate `when_present` method
 * Update `wait_until` and `wait_while` to return `self` to allow chaining
 * Support keywords for wait methods
 * `Element#text_field` no longer locates textareas - use `Element#textarea` instead.
